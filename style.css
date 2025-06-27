@@ -453,7 +453,9 @@ section.skills {
 
 #closeBar {
     position: absolute;
-    right: 50px;
+    right: 30px;
+    top: 2px;
+
 }
 
 /* Sidebar styling */
@@ -474,6 +476,7 @@ section.skills {
 }
 
 #mobileSidebar a {
+    margin-top: 3px;
     color: white;
     padding: 15px 25px;
     text-decoration: none;
