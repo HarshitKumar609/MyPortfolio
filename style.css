@@ -250,6 +250,7 @@ hr {
     color: white;
     text-decoration: none;
     transition: all .2s ease-in-out;
+    margin-bottom: 20px;
 }
 
 .viewWork:hover {
@@ -329,36 +330,41 @@ img {
 .skills {
     width: calc(100% - 80px);
     padding: 60px 20px;
-    margin-left: 80px;
+    margin-left: 10px;
     box-sizing: border-box;
 }
 
 
 .skills h1 {
     color: #102E50;
-    margin: 80px 5px 40px 20px;
+    margin: 0px 0px 50px 80px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 .buttons {
     display: flex;
     color: black;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: left;
+    left: 0;
 }
 
 
 .programming hr {
     width: 80%;
-    margin: 5px 10px 30px 10px;
+    margin: 5px 10px 30px 1px;
     border: 1px solid black;
 }
 
-.programming,
+/* .programming,
 #bth {
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
-.programming {
+*/ .programming {
 
     display: flex;
     justify-content: center;
@@ -367,9 +373,12 @@ img {
 
 .programming p {
     text-transform: capitalize;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #09122C;
     margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
 #btn {
